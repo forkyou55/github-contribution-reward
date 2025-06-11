@@ -1,4 +1,4 @@
-# GitHub Contribution Reward Action
+# GitHub Contribution Reward Action 1234
 
 This GitHub Action awards contributors with SBT (Soulbound Token) rewards upon successful PR merges. It listens for merged pull requests and issues rewards based on reviewer comments containing specific metadata.
 
