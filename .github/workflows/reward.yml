@@ -1,3 +1,4 @@
+#test
 name: Add Github User to reward allowlist on PR Merge
 
 on:
