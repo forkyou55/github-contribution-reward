@@ -1,11 +1,6 @@
-#test
-name: Add Github User to reward allowlist on PR Merge
+name: Reward All Merged PRs
 
 on:
-  push:
-    branches:
-      - main
-      - master
   workflow_dispatch:
     inputs:
       per_page:
@@ -24,5 +19,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           x_api_key: ${{ secrets.X_API_KEY }}
           x_partner_id: ${{ secrets.X_PARTNER_ID }}
-          per_page: ${{ inputs.per_page }}
           activity_id: 5636
+          per_page: ${{ inputs.per_page }}
