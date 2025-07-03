@@ -2,6 +2,10 @@
 name: Add Github User to reward allowlist on PR Merge
 
 on:
+  push:
+    branches:
+      - main
+      - master
   workflow_dispatch:
     inputs:
       per_page:
